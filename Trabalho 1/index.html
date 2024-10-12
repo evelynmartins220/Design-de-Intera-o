@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cartão de Visitas</h1>
+    <form class="comandos">
+        Nome<input type ="text" id="input-nome" maxlength="30" oninput="novoNome()">
+        Instagram<input type="text" id="input-insta" maxlength="15" oninput="novoInsta()">
+        Telefone<input type="tel" id="input-telefone" maxlength="15" oninput="novoTel()">
+        Cor de Fundo<input type="color" id="input-cor" value="#DDDDDD" oninput="novaCor()">
+        Curvatura da Borda<input type="range" id="input-borda" min="0" max="30" value="0" oninput="novaBorda()">
+        Tamanho<select id="tamanho-select" onchange="novoTamanho()">
+            <option value="500x300">500x300</option>
+            <option value="600x400">600x400</option>
+        </select>
+        Selecione a logo<input type="file" id="input-img" accept=".png, .jpeg, .webp" onchange="novaImg()">
+    </form>
+    <div class="cartao">
+        <div class="nome">
+            <p id="nome-cartao">Nome da Empresa</p>
+        </div>
+        
+        <div class="logo">
+            <img class="img-cartao" id="img-cartao" src="img/camera.png" alt="aaa">
+        </div>
+
+        <div class="redes">
+            <div class="telefone">
+                <img class="img-tel" src="img/whatsapp.png" alt="telefone">
+                <p id="tel-cartao">00 00 000000000</p>
+            </div>
+
+            <div class="insta">
+                <img class="img-insta" src="img/instagram.png" alt="instagram">
+                <p id="insta-cartao">@Instagram_Empresa</p>
+        </div>
+
+    </div>
+
+    </div>
+</body>
+</html>

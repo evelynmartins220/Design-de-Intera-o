@@ -1,0 +1,82 @@
+:root{
+    --var-cartao-width: 500px;
+    --var-cartao-height: 300px;
+    --var-img-width: 100px;
+    --var-img-height: 100px; 
+    --var-cartao-borda: 0px;
+    --var-cartao-cor: #DDDDDD;
+}
+
+.comandos{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border: 1px solid;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.cartao{
+    border: 1px solid;
+    width: var(--var-cartao-width);
+    height: var(--var-cartao-height);
+    border-radius: var(--var-cartao-borda);
+    background-color: var(--var-cartao-cor);
+}
+
+.img-cartao{
+    width: var(--var-img-width);
+    height: var(--var-img-height);
+}
+
+.logo{
+    margin:30px;
+    display: flex;
+    justify-content: center;
+}
+
+.nome{
+    font-size: 30px;
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.insta{
+    font-size: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.telefone{
+    font-size: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-insta{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.img-tel{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+p{
+    align-self: center;
+}
+
