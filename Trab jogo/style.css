@@ -48,7 +48,6 @@ h1{
 }
 
 #gameOver{
-    display: flex;
     width: 40%;
     justify-self: center;
 }
