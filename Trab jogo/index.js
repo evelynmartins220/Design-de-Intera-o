@@ -74,8 +74,9 @@ function loop() {
         mario.style.width = '80px';
         mario.style.marginLeft = '40px';
 
-        const gameOverElement = document.getElementById('gameOver');
-        gameOverElement.src = "img/gameOver.png";
+        const gameOverImg = document.getElementById('gameOver');
+        gameOverImg.src = 'img/gameOver.png';
+        gameOverImg.style.display = 'block';
 
         clearInterval(intervalo);
         console.log('Intervalo parado');
