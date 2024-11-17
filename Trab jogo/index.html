@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Jogo</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+            <div id="fundo" class="fundo">
+                <div id="pontuacaoFinal" style="display: none;">Pontuação Final: 0</div>
+                <div id="pontuacao" style="display: block;">Pontuação: 0</div>
+                <div id="recorde">Recorde: 0</div>
+                <img src="img/mario.gif" id="mario" class ="mario">
+                <img src="img/cano.png" id="cano" class ="cano">
+                <img src="" id = "gameOver">
+            </div>
+            <div class = "botoes">
+                <button id = "iniciar" onclick="iniciar()">Iniciar</button>
+                <button id = "pular">Pular</button>
+            </div>
+            <audio id = "som" src="sons/somMario.m4a"></audio>
+    </body>
+</html>
