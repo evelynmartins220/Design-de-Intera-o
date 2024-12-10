@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Países</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script type="module" src="./main.js"></script>
+    <div class="div-pais">
+        <h1 class = "h1-pais">Informações sobre Países</h1>
+        <p>Selecione um país para obter informações como gentílico, sigla e nome internacional</p>
+        <select id="pais-select">
+            <option value="">Selecione um país</option>
+        </select>
+        <div id="pais-detalhes"></div>
+    </div>
+
+    <div class = "div-cnpj">
+        <h1>Consulta de CNPJ</h1>
+        <p>Consulte um CNPJ para obter informações</p>
+        <form id="cnpj-form">
+            <label for="cnpj">Digite o CNPJ:</label>
+            <input type="text" id="cnpj" name="cnpj" required>
+            <button type="submit">Consultar</button>
+        </form>
+        <div id="cnpj-detalhes"></div>
+    </div>
+</body>
+
+</html>
